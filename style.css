@@ -1,0 +1,26 @@
+/* Universal */
+* {
+	color: red;
+}
+
+/* Type */
+h1 {
+	color: blue;
+}
+h2 {
+	color: pink;
+}
+
+/* Class */
+.fancy {
+	font-style: italic;
+}
+.intro {
+	font-size: 10px;
+}
+
+
+/* ID */
+#container {
+	text-aligh: center;
+}
