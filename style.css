@@ -11,6 +11,21 @@ h2 {
 	color: pink;
 }
 
+a:link {
+	color: orchid;
+}
+a:hover {
+	color: white;
+	border-color: black;
+}
+a:focus {
+	color: white;
+	border-color: black;
+}
+a:visited {
+	color: purple;
+}
+
 /* Class */
 .fancy {
 	font-style: italic;
@@ -19,8 +34,35 @@ h2 {
 	font-size: 10px;
 }
 
+body {
+	background-color: olivedrab;
+}
+.navbar {
+	background-color: orange;
+}
+.menu {
+	background-color: aquamarine;
+}
+.contacts {
+	background-color: blueviolet;
+}
+.statement {
+	background-color: yellowgreen;
+}
+.tricks {
+	background-color: palevioletred
+}
+.experience {
+	background-color: goldenrod;
+}
+.additional {
+	background-color: red;
+}
+.quotation {
+	background-color: burlywood;
+}
 
 /* ID */
 #container {
-	text-aligh: center;
+	text-align: center;
 }
