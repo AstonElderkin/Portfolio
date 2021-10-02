@@ -1,8 +1,6 @@
 /* Universal 
 -------------------------------------------------------------------------*/
-* {
-	color: red;
-}
+
 
 /* Global styles
 ------------------------------------------------------------------------ */
@@ -10,20 +8,43 @@ body {
 	color: #343434;
 	margin: 0;
   	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 15px;
+  	line-height: 1.5;
 }
+img {
+	width: 300px;
+	border-radius: 175px;
+}
+a {
+	color: #FFE66D;
+  }
+  a:hover {
+	text-decoration: none;
+  }
+  h1 {
+	font-size: 70px;
+	line-height: 1;
+  }
+  h2 {
+	font-size: 30px;
+  }
+  h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	margin: 0;
+  }
 .content-wrap {
 	width: 800px;
 	margin: 0 auto;
+	padding: 60px 0;
 }
 
-/* Type 
--------------------------------------------------------------------------*/
-h1 {
-	color: blue;
-}
-h2 {
-	color: pink;
-}
+header {
+	background: #2F3061;
+	color: #F7FFF7;
+  }
+
 
 a:link {
 	color: orchid;
@@ -40,8 +61,7 @@ a:visited {
 	color: purple;
 }
 
-/* Class 
--------------------------------------------------------------------------*/
+
 .fancy {
 	font-style: italic;
 }
@@ -49,29 +69,61 @@ a:visited {
 	font-size: 10px;
 }
 
-.navbar {
-	background-color: orange;
-}
-.menu {
-	background-color: aquamarine;
-}
-.contacts {
-	background-color: blueviolet;
-}
 .statement {
-	background-color: yellowgreen;
+	
 }
-.tricks {
-	background-color: palevioletred
+.skills {
+	background: #A1C6D7;
 }
+.skills .btn {
+	color: #F7FFF7;
+	background: #2F3061;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+  .skills .btn:hover {
+	background: rgba(47, 48, 97, 80%);
+}
+
+.education {
+	
+}
+
 .experience {
-	background-color: goldenrod;
+	
 }
+.experience .btn {
+	color: #F7FFF7;
+	background: #2F3061;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.experience .btn:hover {
+	background: rgba(47, 48, 97, 80%);
+}
+
 .additional {
-	background-color: indigo;
+	background: #A1C6D7;
 }
-.quotation {
-	background-color: burlywood;
+.additional .btn {
+	color: #F7FFF7;
+	background: #2F3061;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.additional .btn:hover {
+	background: rgba(47, 48, 97, 80%);
+}
+
+footer {
+	background: #343434;
+  	color: #F7FFF7;
 }
 
 /* ID 
