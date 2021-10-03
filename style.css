@@ -1,6 +1,12 @@
 /* Universal 
 -------------------------------------------------------------------------*/
-
+/*border box fix 
+html {
+	box-sizing: boder-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}*/
 
 /* Global styles
 ------------------------------------------------------------------------ */
@@ -12,28 +18,35 @@ body {
   	font-size: 15px;
   	line-height: 1.5;
 }
+
 img {
 	width: 300px;
 	border-radius: 175px;
+	float: left;
+	margin: 15px;
 }
+.clear {
+	clear: both; /* clears both left & right floats */
+}
+
 a {
 	color: #FFE66D;
   }
   a:hover {
 	text-decoration: none;
   }
-  h1 {
+h1 {
 	font-size: 70px;
 	line-height: 1;
-  }
-  h2 {
+}
+h2 {
 	font-size: 30px;
-  }
-  h1, h2 {
+}
+h1, h2 {
 	font-family: 'Caveat', cursive;
 	font-weight: 400;
 	margin: 0;
-  }
+}
 .content-wrap {
 	width: 800px;
 	margin: 0 auto;
@@ -44,7 +57,6 @@ header {
 	background: #2F3061;
 	color: #F7FFF7;
   }
-
 
 a:link {
 	color: orchid;
@@ -70,7 +82,7 @@ a:visited {
 }
 
 .statement {
-	
+	overflow: hidden;
 }
 .skills {
 	background: #A1C6D7;
@@ -82,6 +94,7 @@ a:visited {
 	padding: 8px;
 	border-radius: 4px;
 	display: inline-block;
+	margin-top: 5px;
 }
   .skills .btn:hover {
 	background: rgba(47, 48, 97, 80%);
@@ -92,7 +105,7 @@ a:visited {
 }
 
 .experience {
-	
+	background: #A1C6D7;
 }
 .experience .btn {
 	color: #F7FFF7;
@@ -101,13 +114,17 @@ a:visited {
 	padding: 8px;
 	border-radius: 4px;
 	display: inline-block;
+	margin-top: 5px;
 }
 .experience .btn:hover {
 	background: rgba(47, 48, 97, 80%);
 }
+.experience li {
+	/*border-bottom: black 1px dashed;*/
+}
 
 .additional {
-	background: #A1C6D7;
+	
 }
 .additional .btn {
 	color: #F7FFF7;
@@ -116,6 +133,7 @@ a:visited {
 	padding: 8px;
 	border-radius: 4px;
 	display: inline-block;
+	margin-top: 5px;
 }
 .additional .btn:hover {
 	background: rgba(47, 48, 97, 80%);
