@@ -119,8 +119,10 @@ a:visited {
 .experience .btn:hover {
 	background: rgba(47, 48, 97, 80%);
 }
-.experience li {
-	/*border-bottom: black 1px dashed;*/
+.job-item {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+  	column-gap: 20px;
 }
 
 .additional {
